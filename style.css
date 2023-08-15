@@ -1,0 +1,151 @@
+body {
+    font-family: system-ui;
+    background: #f5f5f5;
+    color: #000;
+    text-align: center;
+}
+
+.message {
+    opacity: 0;
+    font-family: "Roboto mono";
+    font-weight: bolder;
+    color: #A259E0;
+    margin: 10px auto;
+    font-size: 20px;
+    max-width: 60%;
+    animation-iteration-count: 1;
+    transition-property: font-size;
+    transition-duration: 4s;
+
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.wrapper:hover>.message {
+    opacity: 1;
+    font-size: 30px;
+    color: #326E8D;
+}
+
+
+.flag {
+    margin: 0 auto;
+    width: 400px;
+    height: 150px;
+}
+
+.color {
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.color1 {
+    background: orange;
+}
+
+.color2 {
+    background: #fff;
+}
+
+.color3 {
+    background: green;
+}
+
+.chakra {
+    margin: 0 auto;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 5%;
+    border-radius: 100%;
+    border: 1px solid blue;
+}
+
+.chakra-inner {
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    height: 100%;
+    width: .5px;
+    background-color: blue;
+}
+
+.chakra-center1 {
+    transform: rotate(0deg);
+}
+
+.chakra-center2 {
+    transform: rotate(15deg);
+}
+
+.chakra-center3 {
+    transform: rotate(30deg);
+}
+
+.chakra-center4 {
+    transform: rotate(45deg);
+}
+
+.chakra-center5 {
+    transform: rotate(60deg);
+}
+
+.chakra-center6 {
+    transform: rotate(75deg);
+}
+
+.chakra-center7 {
+    transform: rotate(90deg);
+}
+
+.chakra-center8 {
+    transform: rotate(105deg);
+}
+
+.chakra-center9 {
+    transform: rotate(120deg);
+}
+
+.chakra-center10 {
+    transform: rotate(135deg);
+}
+
+.chakra-center11 {
+    transform: rotate(150deg);
+}
+
+.chakra-center12 {
+    transform: rotate(165deg);
+}
+
+.song {
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    letter-spacing: .2em;
+}
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+    .wrapper {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .container {
+        padding-top: 20px;
+    }
+    .flag {
+        width: 80%;
+        height: auto;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .message {
+        font-size: 18px;
+    }
+}
